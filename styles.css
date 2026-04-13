@@ -36,8 +36,51 @@
     text-align: center;
 }
 
+#skills h1{
+    grid-column:1/span 2;
+    color: #0cda39;
+    font-weight: bold;
+    align-items: center;
+}
+
+#skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    height: 100vh;
+}
+
+#skills img{
+    display:block;
+    place-items: center;
+    height: auto;
+    width:100px;
+    margin: 0 auto;
+
+}
+#skills figure{
+    background-color:rgb(244, 243, 248) ;
+    border-radius:15px ;
+    box-shadow:0 4px 15px rgba(red, green, blue, alpha) ;
+    overflow: hidden;
+    transition: transform 0.3s ease,box-shadow 0.3 ease;
+    width: calc(33.333% - 20px);
+    min-width:250px;
+    margin:0;
+}
+
+#skills figcaption{
+    color: rgb(4, 4, 0);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
 
 
+
+.body{
+    background-color: antiquewhite;
+}
 
 
 
@@ -147,12 +190,3 @@ body{
     font-weight: bold;
 }
 
-.skills {
-    color: #0c0000;
-    background-color: hsl(0, 23%, 95%);;
-    font-size: 1.2rem;
-}
-.skills li {
-    margin-bottom: 10px;
-    color: #47ff47;
-}
