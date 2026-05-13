@@ -7,8 +7,10 @@ body {
 }
 
 .body {
-    background-color: antiquewhite;
+    background-color:#050816;
+    color:white;
 }
+
 
 .highlight {
     color: #0cda39;
@@ -107,6 +109,10 @@ body {
 
 .social-links a:hover {
     opacity: 0.7;
+}
+
+.social-links a:active {
+    color: purple;
 }
 
 /* About Me */
