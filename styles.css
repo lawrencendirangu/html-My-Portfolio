@@ -355,6 +355,70 @@ body {
     text-decoration: underline;
 }
 
+/* Services */
+.services {
+    padding: 40px 20px 20px;
+    text-align: center;
+}
+
+.services h1 {
+    display: inline-block;
+    background-color: #0cda39;
+    color: #050816;
+    padding: 10px 22px;
+    border-radius: 999px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.service-card {
+    flex: 1 1 260px;
+    min-width: 240px;
+    background: linear-gradient(180deg, #111b42 0%, #0a1334 100%);
+    border: 1px solid rgba(183, 197, 236, 0.12);
+    border-radius: 20px;
+    padding: 28px 24px;
+    color: #e8ecf4;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card i {
+    font-size: 2rem;
+    color: #0cda39;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.service-card h3 {
+    margin: 0 0 12px;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.service-card p {
+    margin: 0;
+    color: #c6d2ed;
+    line-height: 1.55;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45);
+    border-color: #0cda39;
+}
+
 /* Contact Details */
 .contact-me h2 {
     color: #0cda39;
@@ -423,6 +487,11 @@ body {
     gap: 28px;
     max-width: 1250px;
     margin: 0 auto;
+}
+.contact-shell .contact-social-panel h3 {
+    color: #0cda39;
+    font-weight: bold;
+    text-align: center;
 }
 
 .contact-form-card {
@@ -504,7 +573,7 @@ body {
 }
 
 .contact-social-panel h3 {
-    color: #ffffff;
+    color: #0cda39;
     font-size: clamp(1.7rem, 3vw, 2.3rem);
     margin-top: 0;
     margin-bottom: 22px;
@@ -582,6 +651,10 @@ body {
 
     .project-media {
         height: 180px;
+    }
+
+    .services-grid {
+        gap: 18px;
     }
 
     .contact {
