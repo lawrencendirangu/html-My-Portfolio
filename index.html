@@ -38,7 +38,10 @@
     
             <div class="about-content"> 
         <h1>Hello, I'm <span class="highlight">Lawrence</span></h1> 
-            <p>Web developer & student passionate about creating innovative web solutions.</p>
+            <p>Web developer & AI automator passionate about creating innovative web solutions.
+                <br> I focus on writing clean code, optimizing user journeys, and delivering reliable products that scale.
+                <br> Let's collaborate to bring your ideas to life!
+            </p>
             </div>
         </div>
         <div class="social-links">
@@ -83,79 +86,113 @@
     </section>
 
     <section id="skills" class="skills">
-        <h1>Skills</h1>
-        <figure>
-            <img src="images/Html.jpg" alt="Frontend">
-            <figcaption><em>HTML</em></figcaption>
-        </figure>
+        <h1>Skills &amp; Expertise</h1>
+        <div class="skills-grid">
+            <article class="skill-card">
+                <h2><i class="fa-solid fa-code"></i> Frontend Development</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                </ul>
+            </article>
 
-        <figure>
-            <img src="images/Css.jpg" alt="Frontend">
-            <figcaption><em>CSS</em></figcaption>
-        </figure>
+            <article class="skill-card">
+                <h2><i class="fa-solid fa-screwdriver-wrench"></i> Tools &amp; Best Practices</h2>
+                <ul>
+                    <li>Git/GitHub</li>
+                    <li>Styling &amp; Responsiveness</li>
+                    <li>CSS Modules</li>
+                    <li>Scalable Web Architecture</li>
+                </ul>
+            </article>
 
-        <figure>
-            <img src="images/Javascript .jpg" alt="Frontend">
-            <figcaption><em>Javascript</em></figcaption>
-        </figure>
-
-        <figure>
-            <img src="images/React .jpg" alt="Frontend">
-            <figcaption><em>React</em></figcaption>
-        </figure>
+            <article class="skill-card">
+                <h2><i class="fa-solid fa-robot"></i> AI &amp; Automation</h2>
+                <ul>
+                    <li>Python Proficiency</li>
+                    <li>AI Orchestration &amp; Agents</li>
+                    <li>LLM Integration</li>
+                    <li>Prompt Engineering</li>
+                    <li>AI Coding Agent Skills</li>
+                </ul>
+            </article>
+        </div>
     </section>
 
     <section id="projects"class="projects">
-        <h2><em>My Projects</em></h2>
-        <div class="project-container">
-            <h3>Project 1: <en><span class="highlight">Portfolio Website</span></en></h3>
-            <p>A personal portfolio website built with HTML, CSS, and JavaScript to showcase my projects and skills.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2: <en><span class="highlight">Food Restaurant Menu</span></en></h3>
+        <h1><em>Featured Projects</em></h1>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 1: <en><span class="highlight">Portfolio Website</span></en></h3>
+                <p>A personal portfolio website built with HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+            <strong><a href= "https://lawrencendirangu.github.io/html-My-Portfolio/" target="_blank" rel="noopener noreferrer">View on GitHub</a></strong>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: <en><span class="highlight">Food Restaurant Menu</span></en></h3>
                 <p>A food restaurant menu application that allows users to browse and order dishes from a local restaurant.</p>
-        <strong><a href= "https://lawrencendirangu.github.io/html-Tasty-Bites-Restaurant/" target="_blank" rel="noopener noreferrer">View on GitHub</a></strong>
-        
+                <strong><a href= "https://lawrencendirangu.github.io/html-Tasty-Bites-Restaurant/" target="_blank" rel="noopener noreferrer">View on GitHub</a></strong>
             </div>
+            <div class="project-card">
+                <h3>Project 3: <en><span class="highlight">Bookstore</span></en></h3>
+                <p>An online bookstore website where users can browse books, view details, and place orders through a clean and responsive interface.</p>
+                <strong><a href= "https://lawrencendirangu.github.io/Html-Bookstore/" target="_blank" rel="noopener noreferrer">View on GitHub</a></strong>
+         </div>
+        </div>
         </section>
 
-        <section id="contact-details"class="contact-me">
-            <h2><em>Contact-Me</em></h2>
-            <div class="contact-container">
-             <div class="contact-info">
-                <h3>Contact Information</h3>
-                <p>Name: Lawrence Kimani Ndirangu</p>
-                <p>Email: <a href="mailto:lawrence.k.ndirangu@gmail.com">lawrence.k.ndirangu@gmail.com</a></p>
-                <p>Tel: <a href="tel:+971527717243">+971527717243</a></p>
-                <p>Age: 24</p>  
-        </div>
-        </div>
-         </section>
-
-         <section id="location-details" class="location">
-            <h2><em>Location</em></h2>
-            <div class="location-container">
-                <p>Currently based in Dubai in the United Arab Emirates. Open to remote work opportunities worldwide.</p>
-            </div>
-        </section>
+       
 
         <section id="contact" class="contact">
-            <h2><em>Get in Touch</em></h2>
-            <div class="contact-container">
+            <div class="contact-heading">
+                <h2>Let's Connect</h2>
+                <p>I'm always interested in hearing about new projects and opportunities.</p>
+                <p>Dubai, UAE | Originally from Nairobi, Kenya</p>
+                <p>Business email under Al Masar domain is verified.</p>
+            </div>
 
-              
-         <form class="contact form">
-            <label>Name</label>
-            <input type="text" placeholder="Enter your Name"><br><br>
-            <label>Email</label>
-            <input type="text" placeholder="Enter your Email"><br><br>
-            <label>Message</label>
-            <textarea placeholder="Enter your Message"></textarea><br>
+            <div class="contact-shell">
+                <div class="contact-form-card">
+                    <form class="contact-form">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Your email" required>
 
-            <button type="submit">Send Message</button>
-         </form>
-        </div>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
 
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                    <p class="whatsapp-text">WhatsApp Business: <a href="tel:+9710508841955">+9710508841955</a></p>
+                    <a class="whatsapp-link" href="https://wa.me/9710508841955" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                </div>
+
+                <div class="contact-social-panel">
+                    <h3>Follow Me</h3>
+                    <div class="contact-icon-grid">
+                        <a href="#hero" aria-label="Portfolio link">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                        <a href="#projects" aria-label="Projects">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </a>
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lawrkz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="mailto:contact@getalmasar.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <p class="contact-year">Thank You 2025</p>
+                    <p class="contact-tagline">Building scalable products with code and AI automation</p>
+                </div>
+            </div>
         </section>
 
         <footer class="footer">
